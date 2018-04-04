@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/img/favicon/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="M23">
+  <meta name="application-name" content="M23">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="msapplication-config" content="/img/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#61c8d6">
+
+  <link rel="stylesheet" href="./css/style.css">
+  <title>M23</title>
+</head>
+<body>
+
+  <!-- Menu -->
+  <nav>
+    <ul id="menu">
+      <li class="menu-inicio"><a href="#inicio">Inicio</a></li>
+      <li class="menu-bio"><a href="#bio">Bio</a></li>
+      <li class="menu-projetos"><a href="#projetos">Projetos</a></li>
+      <li class="menu-contato"><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <!-- Inicio -->
+  <section id="inicio">
+    <div id="circle-box">
+      <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient y1="1" x1="0" id="cyan-magenta">
+            <stop offset="0" stop-color="#00ffff"/>
+            <stop offset="1" stop-color="#ff00ff"/>
+          </linearGradient>
+          <linearGradient y1="0.25" x1="0.25" y2="0.75" x2="0.75" id="bw">
+            <stop offset="0" stop-color="#ffffff"/>
+            <stop offset="1" stop-color="#000"/>
+          </linearGradient>
+          <mask id="circle-mask">
+            <circle id="mask-circle" r="250" cy="250" cx="250" fill="url(#bw)"/>
+          </mask>
+        </defs>
+        <g>
+          <title>Layer 1</title>
+          <g id="svg_1">
+          <circle id="circle" r="250" cy="250" cx="250" fill="url(#cyan-magenta)" mask="url(#circle-mask)"/>
+          <!-- <circle id="mask-circle" r="250" cy="250" cx="250" fill="url(#bw)"/> -->
+          </g>
+        </g>
+      </svg>
+    </div>
+    <p id="inicio-text">
+      <strong>M23</strong> é um abiente criado para servir tanto como uma vitrine para meus pojetos pessoas, quanto como uma forma de laboratório para projetos mais experimentais que possam ter ou não utilidade comercial.
+    </p>
+  </section>
+
+  <!-- Bio -->
+  <section id="bio">
+    <div id="bio-content">
+      <div id="left-brain">
+        <!-- Logical -->
+      </div>
+      <div id="ight-brain">
+        <!-- Creative -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Projetos -->
+  <section id="projetos"></section>
+
+  <!-- Contato -->
+  <section id="contato"></section>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
